@@ -15,8 +15,8 @@ class Alien(Sprite):
 
         # Start each new alien near the top left of the screen
 
-    self.react.x = self.rect.width
-    self.react.y = self.rect.height
+        self.rect.x = self.rect.width
+        self.rect.y = self.rect.height
 
-    # Store the alien's exact horizontal position
-    self.x = float(self.react.x)
+        # Store the alien's exact horizontal position
+        self.x = float(self.rect.x)
